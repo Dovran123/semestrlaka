@@ -1,4 +1,86 @@
 
-p{
-    text-align: center;
+
+* {
+    box-sizing: border-box;
+}
+body   {
+
+}
+div.stred{
+    height :500px;
+    background-color:rgb(146, 162, 181) ;
+}
+#hlavicka {
+
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height :40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+
+}
+#hlavicka ul li  {
+    margin-left: 6px;
+
+
+    list-style: none;
+}
+#hlavicka  a:link {
+    color:black;
+    text-decoration: none;
+}
+#hlavicka  a:link {
+    color:black;
+    text-decoration: none;
+}
+#hlavicka ul {
+    display: flex;
+
+
+}
+.container {
+    width: 70%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.telo {
+    background-color: rgb(240, 240, 240);
+
+
+    padding: 5em 0em;
+
+    display: flex;
+}
+.telo .container h1 {
+    color: #0a58ca;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 4em;
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+.text p {
+    width: 80%;
+
+}
+.btn-get-in-touch button {
+    background-color: #0a58ca;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.telo-obrazka {
+    display: flex;
+
+}
+.telo-obrazka img {
+    object-fit: cover ;
+
+    width: 100%;
 }
