@@ -7,10 +7,8 @@
 #hlavicka {
     margin-top: 1px;
     background-color: white;
-    padding-top: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
 
+    padding: 1.5% 5%;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -19,7 +17,7 @@
 }
 #hlavicka ul li  {
     margin-left: 6px;
-
+    padding-left: 10px;
 
     list-style: none;
 }
@@ -27,7 +25,7 @@
 text-decoration: none;
 }
 #hlavicka ul li a {
-
+    font-weight: bold;
     font-size: 1.2em;
     color: black;
 }
@@ -80,7 +78,10 @@ text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     border: none;
+
+
 }
+
 .telo-obrazka {
     display: flex;
 
@@ -141,7 +142,7 @@ text-decoration: none;
 .boxi p{
     color: #6c757d;
     font-size: 25px;
-    border: 1px solid #adb5bd ;
+    border: 1px solid #ccc ;
 }
 .box1 {
     width: 26em;
@@ -231,7 +232,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
     font-size: 1.2em;
 }
 .futer {
-    padding: 3em 0;
+    padding: 2em 0;
     background-color: white;
     color: #6c757d;
 }
@@ -244,6 +245,9 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 }
 .ikonky ul li {
     list-style: none;
+}
+.ikonky ul li a{
+
 }
 .ikonky ul {
     display: flex;
@@ -261,6 +265,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 .nadpis {
     font-weight: bold;
     font-size: 2em;
+    color: #0c63e4;
 }
 .nadpis:hover {
     color: black;
@@ -270,3 +275,49 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 
 }
 
+.ikonky ul li {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+#face:hover{
+background: url("obrazky/ikonky/facebook-box-fill1.png");
+
+}
+
+#twit:hover {
+    background: url("obrazky/ikonky/twitter-fill1.png");
+}
+#ins:hover {
+    background: url("obrazky/ikonky/instagram-line1.png");
+}
+#git:hover {
+    background: url("obrazky/ikonky/github-fill1.png");
+}
+#you:hover{
+    background: url("obrazky/ikonky/youtube-fill1.png");
+}
+#tru:hover {
+    background: url("obrazky/ikonky/tumblr-fill1.png");
+}
+
+#face {
+    background: url("obrazky/ikonky/facebook-box-fill.png");
+
+}
+#twit  {
+    background: url("obrazky/ikonky/twitter-fill.png");
+}
+#ins  {
+    background: url("obrazky/ikonky/instagram-line.png");
+}
+#git{
+    background: url("obrazky/ikonky/github-fill.png");
+}
+#you {
+    background: url("obrazky/ikonky/youtube-fill.png");
+}
+#tru {
+    background-image: url("obrazky/ikonky/tumblr-fill.png");
+}
