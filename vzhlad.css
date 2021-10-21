@@ -2,41 +2,41 @@
 
 * {
     box-sizing: border-box;
+
 }
 
-#hlavicka {
+.hlavicka {
     margin-top: 1px;
     background-color: white;
 
     padding: 1.5% 5%;
     display: flex;
+
     justify-content: space-between;
     position: sticky;
     top: 0;
 
 }
-#hlavicka ul li  {
+.hlavicka ul li  {
     margin-left: 6px;
     padding-left: 10px;
 
     list-style: none;
 }
-#hlavicka a {
+.hlavicka a {
 text-decoration: none;
 }
-#hlavicka ul li a {
+.hlavicka ul li a {
     font-weight: bold;
     font-size: 1.2em;
     color: black;
 }
-#hlavicka ul li a:hover {
+.hlavicka ul li a:hover {
     color: #0c63e4;
 }
 
-#hlavicka ul li a:active {
-    color: #0c63e4;
-}
-#hlavicka ul {
+
+.hlavicka ul {
     display: flex;
 
 
@@ -45,6 +45,7 @@ text-decoration: none;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+
 }
 .polo{
     width: 50%;
@@ -53,8 +54,9 @@ text-decoration: none;
 }
 .telo {
     background-color: rgb(240, 240, 240);
-    padding: 5em 0em;
+    padding: 5em 0;
     display: flex;
+
 }
 .telo .container h1 {
     color: #3e69dc;
@@ -64,13 +66,14 @@ text-decoration: none;
 }
 .text {
     display: flex;
+
     justify-content: space-between;
 }
 .text p {
     width: 80%;
 
 }
-.btn-get-in-touch button {
+.btn-get-in-touch a {
     background-color: #3e69dc;
     color: white;
     border-radius: 25px;
@@ -85,6 +88,7 @@ text-decoration: none;
 .telo-obrazka {
     display: flex;
 
+
 }
 .telo-obrazka img {
     object-fit: cover ;
@@ -96,7 +100,7 @@ text-decoration: none;
 }
 .telo-modra {
     color:white;
-    padding: 5em 0px;
+    padding: 5em 0;
     background-color:#3e69dc ;
 
 }
@@ -119,6 +123,7 @@ text-decoration: none;
 }
 .divko-modre {
     display: flex;
+
     padding-top: 5em;
 }
 .telo-modra h1{
@@ -127,7 +132,7 @@ text-decoration: none;
 }
 .telo-box {
     background-color: white;
-    padding: 3em 0px;
+    padding: 3em 0;
 }
 .telo-box h1 {
     justify-content: space-between;
@@ -137,7 +142,8 @@ text-decoration: none;
 .boxi {
 
     display: flex;
-    padding: 4em 0px;
+
+    padding: 4em 0;
 }
 .boxi p{
     color: #6c757d;
@@ -155,6 +161,7 @@ text-decoration: none;
 .obrazok {
     display: flex;
 
+
 background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.5)) ,url("obrazky/academy-celebrate-celebration-267885-1-1.jpg") ;
     background-attachment: fixed;
     width: 100%;
@@ -168,13 +175,14 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 }
 .telo-pismo {
     justify-content: space-between;
-    padding: 3em 0px;
+    padding: 3em 0;
     background-color: white;
 }
 .pisma{
 
     margin: 40px 0;
     display: flex;
+
 
 }
 .pisma div{
@@ -206,6 +214,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 }
 .telo-contaktov{
     display: flex;
+
     justify-content: space-between;
 }
 .telo-kontakty {
@@ -238,6 +247,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 }
 .peticka {
     display: flex;
+
     justify-content: space-between;
 }
 .ikonky {
@@ -251,6 +261,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 }
 .ikonky ul {
     display: flex;
+
 }
 .textik a {
     font-weight: bold;
@@ -265,7 +276,7 @@ background-image: linear-gradient(rgba(65, 105, 225,0.527),rgba(65, 105, 225, 0.
 .nadpis {
     font-weight: bold;
     font-size: 2em;
-    color: #0c63e4;
+
 }
 .nadpis:hover {
     color: black;
@@ -321,3 +332,148 @@ background: url("obrazky/ikonky/facebook-box-fill1.png");
 #tru {
     background-image: url("obrazky/ikonky/tumblr-fill.png");
 }
+@media screen and (max-width: 750px){
+  .divko-modre {
+      margin-left: -5em;
+      flex-direction: column;
+  }
+
+    .divko-modre div{
+        width: 100%;
+
+    }
+    .container {
+        margin-left: 1em;
+        width: 80%;
+    }
+    .medzi {
+margin-left: 2em;
+    }
+    .divko-modre img{
+        margin-left: 5em;
+    }
+    .boxi {
+        flex-direction: column;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        padding-left: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin-left: 0.5em;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        margin-left: 0.5em;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .pisma {
+        flex-direction: column;
+
+    }
+    .pisma div {
+        width: 100%;
+    }
+    .telo-contaktov {
+        flex-direction: column;
+    }
+    .telo-contaktov div {
+        width: 100%;
+    }
+}
+.vel {
+    width: 25px;
+    height: 25px;
+}
+@media screen and (max-width:1234px) {
+    .text {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .peticka {
+
+        flex-direction: column;
+    }
+    .peticka .ikonky ul{
+        padding: 10px 0;
+    }
+    .ikony ul{
+
+        flex-direction: column;
+        width: 100%;
+         float: left;
+
+         text-align: left;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 29px;
+        top: 19px;
+    }
+    .topnav.responsive .idk a {
+        position: relative;
+
+        display: block;
+        color: black;
+
+    }
+    .topnav.responsive .idk a:hover {
+
+        color: #0c63e4;
+
+    }
+    .topnav.responsive li {
+        float: left;
+        display: block;
+
+    }
+    .hlavicka.hlavna {
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+
+    .topnav a {display: none;}
+    .nadpis {
+        width: 150px;
+
+        height: 50px;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        background-color: #0c63e4;
+
+        padding: 5px 10px;
+        border-radius: 40px;
+    }
+
+    .topnav a.icon:hover{
+        color: black;
+    }
+    .hlavicka ul li a{
+        color: white;
+    }
+}
+.topnav .icon {
+    display: none;
+}
+.topnav {
+    overflow: hidden;
+
+}
+

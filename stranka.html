@@ -1,4 +1,4 @@
-<!Doctype>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Latest compiled and minified CSS -->
@@ -7,30 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="vzhlad.css">
-    <title>Document</title>
+    <script src="hlavicka.js"></script>
+    <title>Hlavna</title>
 </head>
 <body >
 
-<div id="hlavicka">
-        <a class="nadpis" href="">Stratford</a>
+<div id="hlavicka" class="hlavicka">
+        <a class="nadpis" href="stranka.html">Stratford</a>
     <div class="ikony">
-        <ul>
-            <li>
-                <a style="color: #0c63e4;"  href="">Home</a>
+        <ul class="topnav" id="myTopnav">
+            <li class="idk">
+                <a  style="color: #0c63e4;"  href="stranka.html">Home</a>
             </li>
-            <li>
-                <a style="" href="">About</a>
+            <li class="idk">
+                <a  style="" href="" >About</a>
             </li>
-            <li>
-                <a style=""href="">Blog</a>
+            <li class="idk">
+                <a  style="" href="blog.html">Blog</a>
             </li>
-            <li>
-                <a style=""href="">Contact</a>
+            <li class="idk">
+                <a  style="" href="Contak.html">Contact</a>
             </li>
+            <li class="ida"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                MENU +
+            </a> </li>
         </ul>
     </div>
 </div>
@@ -43,7 +46,8 @@
             the skills that will help them thrive after their school years are over.  As a parent, what more can you ask for?
         </p>
         <div class="btn-get-in-touch">
-            <button>Get in touch</button>
+            <a style=" text-decoration: none;
+    color: white;" href="Contak.html"> Get in touch </a>
         </div>
     </div>
 
@@ -149,7 +153,8 @@
             We will spend a day with your child in one of our classroom, where they will get to see what a day in the life of a Stratford student is like. Get in touch with us and we can help your child fulfil their potential by enrolling at Stratford!
         </p>
         <div class="btn-get-in-touch-me" >
-            <button class="buttoni">BOOK AN ASSESSMENT</button>
+            <a class="buttoni" style=" text-decoration: none;
+    color: #3e69dc;" href="Contak.html">BOOK AN ASSESSMENT</a>
         </div>
     </div>
 </div>
@@ -189,30 +194,45 @@
 <div class="futer" style="padding-left: 5%; padding-right: 5%;">
     <div class="container">
         <div class="peticka">
-    <div class="textik"><a href="">Stratford</a></div>
-        <div  class="ikonky">
-            <ul>
-            <li>
-                <img src="obrazky/ikonky/facebook-box-fill.png" alt="png">
-            </li>
-            <li>
-                <img src="obrazky/ikonky/twitter-fill.png" alt="png">
-            </li>
-            <li>
-                <img  src="obrazky/ikonky/instagram-line.png"alt="png">
-            </li>
-            <li>
-                <img src="obrazky/ikonky/github-fill.png" alt="png">
-            </li>
-            <li>
-                <img src="obrazky/ikonky/tumblr-fill.png" alt="png">
-            </li>
-            <li>
-                <img src="obrazky/ikonky/youtube-fill.png" alt="png">
-            </li>
-        </ul></div>
+            <div class="textik"><a href="stranka.html">Stratford</a></div>
+            <div  class="ikonky">
+                <ul>
+
+                    <li id="face">
+                        <a  href="https://www.facebook.com/" class="vel">    </a>
+                    </li>
+
+
+                    <li id="twit">
+                        <a href="https://twitter.com/" class="vel">    </a>
+                    </li>
+
+
+
+                    <li id="ins">
+                        <a href="https://www.instagram.com/" class="vel">  </a>
+                    </li>
+
+
+
+                    <li id="git">
+                        <a  href="https://github.com/" class="vel"> </a>
+                    </li>
+
+                    <li id="tru">
+                        <a  href="https://www.tumblr.com/" class="vel">   </a>
+                    </li>
+
+
+                    <li id="you">
+                        <a  href="https://www.youtube.com/" class="vel">        </a>
+                    </li>
+
+
+                </ul></div>
         </div>
     </div>
 </div>
+
 </body>
 </html>
